@@ -4,14 +4,15 @@
 }
 
 :root {
-    --btn-bg: #0d0c1d;
-    --btn-fg: #f1dac4;
-    --background-color: #161B33;
-    --calc-background: #474973;
-    --error-background: #446DF6;
+    --btn-bg: #000814;
+    --btn-fg: #FFC300;
+    --background-color: #001D3D;
+    --background-color2: #000049;
+    --calc-background: #003566;
+    --error-background: #FFD60A;
 }
 
-.calc {   
+.calc {
     position: absolute;
 
     user-select: none;
@@ -56,7 +57,7 @@ body {
 .container {
     height: 100vh;
     width: 100vw;
-    background: var(--background-color);
+    background: linear-gradient(to bottom right, var(--background-color), var(--background-color2));
 }
 
 .output {
@@ -89,7 +90,7 @@ body {
     right: -150px;
     padding: 10px;
     background: var(--error-background);
-    color: white;
+    color: black;
     padding: 25px;
     border-radius: 10px;
     text-align: center;
